@@ -2,13 +2,16 @@
 
 Final Year Project where the aim is to apply techniques to achieve viable indoor positioning (In the UCD O'Brien Science Centre) using a smartphone
 
-The Core Objectives of the project are:
+Full details of the project and implementation are in the included Final Report
 
-Using Wifi fingerprinting to estimate the phones location
+The main outcomes of the project were:
 
-Using the phone's inertial sensors to detect steps taken by the user as a form of Pedestrian Dead Reckoning to aid in tracking
+Tools were developed to capture inertial and Wi-Fi Recevied Signal Strength(RSS) Data. This is despite the fact that the project brief outlined the lack of necessity for a smartphone app, in the end, I made 2.
 
-Combining the above in a Particle Filter that has the potential to accurately simulate the user and track their position
+Appropriate data processing was applied to both the ouputs of the two tools. This data is then fed into a particle filter.
+
+The particle filter was implemented and successfully predicted the real path with artificial test data. However it was not able to predict any positiong with real data due to the limitations of the Wi-Fi RSS data detailed the Final Report
+
 
 # Contents
 
