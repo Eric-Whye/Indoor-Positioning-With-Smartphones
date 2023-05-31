@@ -10,7 +10,7 @@ Using the phone's inertial sensors to detect steps taken by the user as a form o
 
 Combining the above in a Particle Filter that has the potential to accurately simulate the user and track their position
 
-#Contents
+# Contents
 
 InertialGatherer is the android app for gathering data during the online phase
 
